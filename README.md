@@ -16,9 +16,9 @@ This repository contains assignment starter code for buildroot based assignments
 
 We will be using rpi3
 
-Configuration of rpi  for Buildroot:
+## Configuration of rpi  for Buildroot: ##
 ----------------------------
-Other configuration of rpi:
+## Other configuration of rpi: ##
 ----------------------------
 For models A, B, A+ or B+:
 
