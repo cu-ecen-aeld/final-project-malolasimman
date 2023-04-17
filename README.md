@@ -10,7 +10,7 @@ The project overview can be found [Click here](https://github.com/cu-ecen-aeld/f
 The project overview can be found [Click here](https://github.com/users/anuh7/projects/1/views/1?groupedBy%5BcolumnId%5D=39074036)
 
 
-# buildroot-rpi
+## buildroot-rpi ##
 
 This repository contains assignment starter code for buildroot based assignments for the course Advanced Embedded Software Design, ECEN 5713
 
