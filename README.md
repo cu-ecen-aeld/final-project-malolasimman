@@ -36,6 +36,6 @@ For model 3 B and B+:
 
   $ make raspberrypi3_defconfig
 
-For model 4 B:
+For model 4 b:
 
   $ make raspberrypi4_defconfig
