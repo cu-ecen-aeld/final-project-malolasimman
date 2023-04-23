@@ -1,0 +1,42 @@
+#!/bin/sh
+#
+# Start the network....
+#
+
+# Debian ifupdown needs the /run/network lock directory
+mkdir -p /run/network
+modprobe brcmfmac
+
+case "$1" in
+  start)
+    echo "Starting network..."
+    if /sbin/ifup -a; then
+        echo "Network started successfully."
+    else
+        echo "Failed to start network."
+        exit 1
+    fi
+    ;;
+  stop)
+    echo "Stopping network..."
+    if /sbin/ifdown -a; then
+        echo "Network stopped successfully."
+    else
+        echo "Failed to stop network."
+        exit 1
+    fi
+    ;;
+  restart|reload)
+    echo "Restarting network..."
+    "$0" stop
+    sleep 1
+    "$0" start
+    ;;
+  *)
+    echo "Usage: $0 {start|stop|restart}"
+    exit 1
+esac
+
+exit $?
+
+
