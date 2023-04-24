@@ -9,6 +9,11 @@ The project overview can be found [Click here](https://github.com/cu-ecen-aeld/f
 ## Project Schedule ##
 The project overview can be found [Click here](https://github.com/users/anuh7/projects/1/views/1?groupedBy%5BcolumnId%5D=39074036)
 
+## Application Code ##
+The project Application code can be found [Click here](https://github.com/anuh7/final-project-assignment-anuh/)
+
+## Client side Buildroot Code ##
+The project Buildroot code can be found [Click here](https://github.com/cu-ecen-aeld/final-project-malolasimman)
 
 ## buildroot-rpi ##
 
