@@ -9,12 +9,10 @@ FINAL_GIT_SUBMODULES = YES
 
 define FINAL_BUILD_CMDS
 	 $(MAKE) $(TARGET_CONFIGURE_OPTS) -C $(@D)/client all
-	  $(MAKE) $(TARGET_CONFIGURE_OPTS) -C $(@D)/server all
 endef
 
 define FINAL_INSTALL_TARGET_CMDS
 	$(INSTALL) -m 0755 $(@D)/client/client $(TARGET_DIR)/usr/bin/
-	$(INSTALL) -m 0755 $(@D)/server/server $(TARGET_DIR)/usr/bin/
 endef
 
 $(eval $(generic-package))
