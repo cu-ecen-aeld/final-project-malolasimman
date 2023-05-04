@@ -1,4 +1,4 @@
-# final-project-malolasimman
+# # ECEN 5713 AESD Final Project Malola Simman
 final-project-malolasimman created by GitHub Classroom
 
 ##  Automotive Monitoring System ##
@@ -14,6 +14,13 @@ The project Application code can be found [Click here](https://github.com/anuh7/
 
 ## Client side Buildroot Code ##
 The project Buildroot code can be found [Click here](https://github.com/cu-ecen-aeld/final-project-malolasimman)
+
+## Team members ##
+- Anuhya Kuraparthy - (anku3943@colorado.edu)
+- Malola Simman Srinivasan Kannan - (masr4788@colorado.edu)
+
+## Malola Simman Srinivasan Kannan Demo video wiki page (project Outline) ##
+The project outline can be found [Click here](https://github.com/anuh7/final-project-assignment-anuh/wiki/Malola-Simman-Srinivasan-Kannan-Final-Project-Video)
 
 ## buildroot-rpi ##
 
